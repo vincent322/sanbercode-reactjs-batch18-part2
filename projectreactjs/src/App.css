@@ -1,9 +1,17 @@
 h1 {
   text-align: center;
+  background-color: rgb(238, 210, 210);
 }
 
 label {
-  padding: 15px;
+  padding: 25px;
+}
+
+
+table.daftarBuah thead th {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center; 
 }
 
 input[type=text] {
@@ -26,7 +34,8 @@ input[type=submit] {
 .App {
   margin: 50px auto;
   width: 40%;
-  border: 3px solid #0c1303;
+  background-color: rgb(238, 210, 210);
+  border: 5px solid #0b1104;
   padding: 10px;
   text-align: justify;
   
@@ -43,7 +52,7 @@ input[type=submit] {
   }
 }
 
-.App-header {
+/*.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -51,8 +60,8 @@ input[type=submit] {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: red;
+}*/
 
 .App-link {
   color: #61dafb;
@@ -65,4 +74,22 @@ input[type=submit] {
   to {
     transform: rotate(360deg);
   }
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+form.input {
+  display: flex;
+  flex-direction: column;
+}
+form.input>span {
+  margin-top: 5px;
 }
