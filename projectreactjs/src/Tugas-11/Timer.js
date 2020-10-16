@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class Timer extends Component{
     constructor(props) {
         super(props)
@@ -51,7 +52,8 @@ class Timer extends Component{
     
     render() {
         return (
-            <>
+            
+            <div className="tugas">
                 {
                     this.state.showTime && (
                         <h1 style={{display:"flex",backgroundColor:"red",justifyContent:"Center",margin:"30px"}}>
@@ -60,7 +62,8 @@ class Timer extends Component{
                         </h1>
                     )
                 }
-            </>
+            
+        </div>
         )
     }
 }

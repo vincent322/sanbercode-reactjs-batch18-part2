@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 let dataHargaBuah = [
     {nama: "Semangka", harga: 10000, berat: 1000},
     {nama: "Anggur", harga: 40000, berat: 500},
@@ -41,7 +42,7 @@ class BeratBuah extends React.Component {
 function TblHargaBuah() {
     return (
         <>
-            <div style={{margin: '50px auto', border: '5px solid #aaa', borderRadius: '10px', width: '75%', padding: '50px', backgroundColor: '#FFF'}}>
+            <div className ="tugas">
                 <h1 style={{textAlign: 'center'}}>Tabel Harga Buah</h1>
                 <table border="1" style={{width: '100%'}}>
                     <tr>

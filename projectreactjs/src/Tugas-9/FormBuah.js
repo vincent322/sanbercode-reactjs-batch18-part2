@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Buah() {
+function FormBuah() {
     return (
       <div style={{margin: 'auto', border: '5px solid #aaa', borderRadius: '10px', width: '50%', padding: '30px', backgroundColor: '#FFF'}}>
       <h1 style={{textAlign: 'center'}}>Form Pembelian Buah</h1>
@@ -29,4 +29,4 @@ function Buah() {
     );
   }
 
-  export default Buah
+  export default FormBuah

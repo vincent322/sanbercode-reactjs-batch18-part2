@@ -6,14 +6,14 @@ import ListBuah from "./ListBuah"
 
 const Buah = ()=>{
   return(
-    <>
+    <div className="tugas">
       <BuahProvider>
           <InputProvider>
         <ListBuah/>
         <BuahForm/>
         </InputProvider>
       </BuahProvider>
-    </>
+    </div>
   )
 
 }

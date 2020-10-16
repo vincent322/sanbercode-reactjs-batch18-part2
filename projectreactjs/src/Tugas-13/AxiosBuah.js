@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 
+
 const AxiosBuah = () => {
     let allBuah = {
         id: 0,
@@ -92,7 +93,8 @@ const AxiosBuah = () => {
             })
     }
 
-    return (<>
+    return (<div className="tugas">
+
         <h1>Table Data Buah</h1>
         <table className="daftarBuah">
             <thead>
@@ -134,7 +136,7 @@ const AxiosBuah = () => {
             </span>
             <span><button onClick={handleSubmit}>Submit</button></span>
         </form>
-    </>)
+    </div>)
 }
 
 export default AxiosBuah

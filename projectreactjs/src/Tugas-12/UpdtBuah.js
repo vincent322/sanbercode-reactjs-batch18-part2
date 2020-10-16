@@ -76,7 +76,8 @@ class UpdtBuah extends Component{
 
   render() {
     return (
-      <>
+      
+        <div className="tugas">
         <h1>List Buah</h1>
         <table className="daftarBuah">
           <thead>
@@ -121,7 +122,7 @@ class UpdtBuah extends Component{
           </span>
           <span><button>Submit</button></span>
         </form>
-      </>
+    </div>
     )
   }
 }
